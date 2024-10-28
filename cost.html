@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Cost Calculator</title>
+    <link rel="stylesheet" href="cost.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Electricity Cost Calculator</h1>
+        <form id="costCalculator">
+            <label for="kwh">Enter kwh used:</label>
+            <input type="number" id="kwh" placeholder="no. of units" required>
+
+            <label for="costPerKwh">Cost per kwh:</label>
+            <input type="number" id="costPerKwh" placeholder="cost per unit" required>
+
+            <button type="submit">Calculate Cost</button>
+        </form>
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="cost.js"></script>
+</body>
+</html>
